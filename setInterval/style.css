@@ -1,0 +1,44 @@
+.interval-container{
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
+}
+.colors-container{
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 0 3px #2b2d42;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.btns-container{
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    margin: 0 auto;
+    
+}
+
+.btn-start, .btn-stop{
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 3px #2b2d42;
+    border-radius: 5px;
+    transition: .4s;
+}
+.btn-start:hover{
+    background-color:#dde5b6 ;
+}
+.btn-stop:hover{
+    background-color:#b5e48c ;
+}
+
+@media(max-width:500px){
+    .btns-container{
+        display: block;
+    }
+    .btn-start, .btn-stop{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
