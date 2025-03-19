@@ -13,6 +13,7 @@
     box-shadow: 0 0 8px #bbb;
     margin-bottom: 30px;
     border-radius: 5px;
+    overflow:scroll;
     
 
 }
@@ -22,7 +23,6 @@
     align-items: center;
     justify-content: start;
     margin: 20px 20px;
-    overflow:scroll;
 }
 .post strong{
     color:rgba(105, 90, 205, 0.8);
@@ -55,4 +55,7 @@
 .btn-show-posts:hover{
     box-shadow: 0 0 15px #777;
     background-color: lightblue;
+}
+.btn-show-posts:active{
+    background-color: lightyellow;
 }

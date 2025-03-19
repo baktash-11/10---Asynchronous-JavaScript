@@ -21,7 +21,7 @@ function createPost(post, cb){
     setTimeout(()=>{
         postsArray.push(post);
         cb();
-    }, 3000);
+    }, 2000);
 }
 
 btnShowPosts.addEventListener('click', ()=>{

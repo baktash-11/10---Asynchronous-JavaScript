@@ -1,0 +1,64 @@
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 90%;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+header h1{
+    font-weight: 300;
+    font-size: 25px;
+
+}
+header i{
+    font-size: 30px;
+    color: #999;
+}
+
+.main{
+    width: 90%;
+    margin: 10px auto;
+    
+}
+
+.btn-container{
+    width: 90%;
+    margin: 20px auto;
+}
+.btn-show-movies{
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #999;
+    border: none;
+    box-shadow: 0 0 3px #000;
+    transition: .4s;
+    cursor: pointer;
+    overflow: auto;
+    color: #ccc;
+}
+
+.list-container .movie{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    font-weight: 100;
+    font-size: 14px;
+    background-color: #fff;
+    list-style: none;
+}
+.btn-show-movies:hover{
+    color: #fff;
+    /* background-color: #999; */
+}
+.btn-show-movies:active{
+    background-color: aliceblue;
+}
+.movie .title{
+    font-weight: bold;
+    display: block;
+    
+}
