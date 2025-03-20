@@ -1,0 +1,79 @@
+.main{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.output-container{
+    width: 90%;
+    height: 50vh;
+    box-shadow: 0 0 8px #bbb;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    overflow:scroll;
+    
+
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: 20px 20px;
+}
+.post strong{
+    color:rgba(105, 90, 205, 0.8);
+    text-transform: uppercase;
+}
+.post{
+    width: 90%;
+    margin:10px 5px;
+    list-style: none;
+    padding: 5px;
+    border-bottom: 2px solid rgba(105, 90, 205, 0.196);
+}
+.btn-container{
+    width: 90%;
+}
+.btn-show-posts{
+    width: 100%;
+    padding: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px #999 ;
+    border: none;
+    outline: none;
+    background-color: #eee;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btn-show-posts:hover{
+    box-shadow: 0 0 15px #777;
+    background-color: lightblue;
+}
+.btn-show-posts:active{
+    background-color: lightyellow;
+}
+
+
+/*
+experimenting  
+ */
+ .something{
+    width: 40px;
+    height: 40px;
+    background-color: #ff006e;
+    border-radius: 50%;
+    opacity: .2;
+    box-shadow: 0 0 10px #888;
+    margin: auto;
+    cursor: pointer;
+ }
+ .hidden{
+    display: none;
+ }

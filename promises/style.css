@@ -1,0 +1,83 @@
+main {
+  width: 100%;
+  height: 50vh;
+}
+
+.loader-container {
+  display: grid;
+  place-items: center;
+  height: 50vh;
+}
+
+.progress-bar {
+  width: 50%;
+  max-width: 400px;
+  height: 20px;
+  background-color: #dfe0dc;
+  border-radius: 10px;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.progress {
+  width: 0;
+  height: 100%;
+  background-color: #00afb9;
+  animation: fill 4s infinite;
+}
+
+@keyframes fill {
+  0% {
+    width: 0;
+    opacity: 1;
+    color: #00afb9;
+  }
+  100% {
+    width: 100%;
+    color: #0466c8;
+  }
+}
+
+.color-change {
+  width: 50px;
+  height: 50px;
+  /* background-color: red; */
+  animation: changeColor 3s infinite;
+  margin: auto;
+  border-radius: 5%;
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: #d81159;
+    transform: rotate(0deg);
+    width: 50px;
+    height: 50px;
+}
+ /* 25% {
+    background-color: yellow;
+    transform: rotate(90deg);
+    width: 45px;
+    height: 45px;
+} */
+50% {
+    background-color: #f7b801;
+    transform: rotate(180deg);
+    width: 5px;
+    height: 5px;
+    opacity: 0;
+}
+75% {
+    /* background-color: blue;
+    transform: rotate(270deg);
+    width: 35px;
+    height: 35px; */
+} 
+100% {
+    background-color: #d81159;
+    transform: rotate(360deg);
+    width: 50px;
+    height: 50px;
+  }
+}
